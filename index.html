@@ -1,0 +1,854 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mayla | Memórias Escolares & Portfólio de Redações</title>
+  
+  <!-- Meta tags e SEO -->
+  <meta name="description" content="Trajetória escolar de Mayla, desde a primeira infância no CMEI Miguel Arraes até a conclusão do 3º ano do Ensino Médio no Colégio Estadual Padre Cláudio Morelli, acompanhada de seu portfólio completo com 17 redações do Terceirão.">
+  <meta name="author" content="Mayla">
+  
+  <!-- Google Fonts: Plus Jakarta Sans (UI) & Playfair Display / Newsreader (Editorial) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,400&family=Playfair+Display:ital,wght@0,500;0,600;0,700;0,800;1,400;1,600&family=Lora:ital,wght@0,400;0,500;0,600;1,400;1,500&display=swap" rel="stylesheet">
+  
+  <!-- Estilos Principais -->
+  <link rel="stylesheet" href="css/style.css">
+  
+  <!-- Favicon com SVG minimalista -->
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🎓</text></svg>">
+</head>
+<body class="light-theme">
+  <!-- Barra de Progresso de Leitura Superior -->
+  <div id="scrollProgressBar" class="scroll-progress-bar" aria-hidden="true"></div>
+
+  <!-- Header & Navegação Fixa -->
+  <header class="site-header" id="siteHeader">
+    <div class="header-container">
+      <a href="#hero" class="brand-logo" aria-label="Ir para o topo">
+        <span class="logo-symbol">M</span>
+        <span class="logo-text">Mayla<span class="logo-dot">.</span></span>
+      </a>
+
+      <!-- Menu de Navegação Desktop -->
+      <nav class="main-nav" aria-label="Navegação Principal">
+        <ul class="nav-links">
+          <li><a href="#memorias" class="nav-link">Memórias</a></li>
+          <li><a href="#linha-do-tempo" class="nav-link">Trajetória</a></li>
+          <li><a href="#galeria" class="nav-link">Galeria</a></li>
+          <li><a href="#terceirao-amigos" class="nav-link">Terceirão & Amigos</a></li>
+          <li><a href="#redacoes" class="nav-link nav-link-highlight">Portfólio de Redações</a></li>
+        </ul>
+      </nav>
+
+      <!-- Ações do Header: Alternador de Tema e Menu Mobile -->
+      <div class="header-actions">
+        <button id="themeToggleBtn" class="theme-toggle-btn" aria-label="Alternar tema claro e escuro" title="Alternar tema (Claro/Escuro)">
+          <svg class="theme-icon sun-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <circle cx="12" cy="12" r="5"></circle>
+            <line x1="12" y1="1" x2="12" y2="3"></line>
+            <line x1="12" y1="21" x2="12" y2="23"></line>
+            <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+            <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+            <line x1="1" y1="12" x2="3" y2="12"></line>
+            <line x1="21" y1="12" x2="23" y2="12"></line>
+            <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+            <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+          </svg>
+          <svg class="theme-icon moon-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+          </svg>
+        </button>
+
+        <button id="mobileMenuToggle" class="mobile-menu-toggle" aria-label="Abrir menu de navegação" aria-expanded="false">
+          <span class="hamburger-line"></span>
+          <span class="hamburger-line"></span>
+          <span class="hamburger-line"></span>
+        </button>
+      </div>
+    </div>
+
+    <!-- Gaveta de Navegação Mobile -->
+    <div id="mobileNavDrawer" class="mobile-nav-drawer" aria-hidden="true">
+      <ul class="mobile-nav-links">
+        <li><a href="#memorias" class="mobile-link">Memórias Escolares</a></li>
+        <li><a href="#linha-do-tempo" class="mobile-link">Linha do Tempo</a></li>
+        <li><a href="#galeria" class="mobile-link">Galeria de Lembranças</a></li>
+        <li><a href="#terceirao-amigos" class="mobile-link">O Terceirão e Amigos</a></li>
+        <li><a href="#redacoes" class="mobile-link mobile-link-accent">Portfólio de Redações (17)</a></li>
+      </ul>
+    </div>
+  </header>
+
+  <main id="mainContent">
+    <!-- Hero Section -->
+    <section class="hero-section" id="hero">
+      <div class="hero-bg-decorations" aria-hidden="true">
+        <div class="decor-circle circle-1"></div>
+        <div class="decor-circle circle-2"></div>
+        <div class="decor-grid-pattern"></div>
+      </div>
+
+      <div class="hero-container">
+        <div class="hero-content">
+          <div class="hero-badge">
+            <span class="badge-dot"></span> Formanda do Ensino Médio • 3º Ano EM
+          </div>
+
+          <h1 class="hero-title">
+            Entre páginas, laços e memórias: <span class="gradient-text">a minha história escolar.</span>
+          </h1>
+
+          <p class="hero-subtitle">
+            Sou <strong>Mayla</strong>, estou prestes a completar 17 anos e fechando este grande ciclo no <strong>Colégio Estadual Padre Cláudio Morelli</strong>. Este espaço reúne minhas lembranças escolares desde o CMEI até o Terceirão, além do meu portfólio completo de <strong>17 redações dissertativas</strong> desenvolvidas ao longo do ano.
+          </p>
+
+          <div class="hero-cta-group">
+            <a href="#memorias" class="btn btn-primary">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" class="btn-icon">
+                <path d="M19 21l-7-5-7 5V5a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2z"></path>
+              </svg>
+              Minhas Memórias
+            </a>
+            <a href="#redacoes" class="btn btn-secondary">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" class="btn-icon">
+                <path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"></path>
+                <path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"></path>
+              </svg>
+              Portfólio de Redações (17)
+            </a>
+          </div>
+
+          <div class="hero-stats">
+            <div class="stat-pill">
+              <span class="stat-num">17</span>
+              <span class="stat-desc">Anos quase completos</span>
+            </div>
+            <div class="stat-divider"></div>
+            <div class="stat-pill">
+              <span class="stat-num">4</span>
+              <span class="stat-desc">Escolas marcantes</span>
+            </div>
+            <div class="stat-divider"></div>
+            <div class="stat-pill">
+              <span class="stat-num">17</span>
+              <span class="stat-desc">Redações produzidas</span>
+            </div>
+            <div class="stat-divider"></div>
+            <div class="stat-pill">
+              <span class="stat-num">∞</span>
+              <span class="stat-desc">Lembranças e laços</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="hero-visual">
+          <div class="hero-photo-wrapper">
+            <div class="photo-glow" aria-hidden="true"></div>
+            <img src="assets/img/mayla-terceirao.jpg" alt="Foto de Mayla, prestes a fazer 17 anos, na reta final do terceirão" class="hero-photo">
+            <div class="photo-floating-tag">
+              <span class="tag-icon">✨</span>
+              <div class="tag-text">
+                <strong>Mayla</strong>
+                <small>Padre Cláudio Morelli • 3º Ano</small>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <a href="#memorias" class="scroll-down-indicator" aria-label="Rolar para a seção de memórias">
+        <span class="mouse-icon">
+          <span class="mouse-wheel"></span>
+        </span>
+        <span class="scroll-text">Descubra a história</span>
+      </a>
+    </section>
+
+    <!-- SEÇÃO 1: MEMÓRIAS ESCOLARES -->
+    <section class="section memorias-section" id="memorias">
+      <div class="section-container">
+        <div class="section-header">
+          <span class="section-tag">Capítulo 01</span>
+          <h2 class="section-title">Minhas Memórias Escolares</h2>
+          <p class="section-subtitle">
+            Um resgate afetivo da minha caminhada: da curiosidade inocente da primeira infância aos passos decididos no limiar da juventude.
+          </p>
+        </div>
+
+        <!-- Manifesto / Relato Principal -->
+        <div class="memoir-intro-card">
+          <div class="quote-icon" aria-hidden="true">“</div>
+          <div class="memoir-intro-body">
+            <p class="memoir-lead">
+              Sou <strong>Mayla</strong>, estou prestes a fazer 17 anos. A minha história na escola começa bem antes de eu conseguir lembrar de tudo com clareza, lá no <em>CMEI Miguel Arraes</em>. Eu era bem pequena, mas guardo a sensação daqueles primeiros dias: tintas, brincadeiras, descobertas simples e a primeira noção de que existia um mundo além de casa onde eu podia aprender e conviver com outras crianças.
+            </p>
+            <p>
+              Logo depois, passei do 1º ao 3º ano no <em>Centro de Educação Infantil Caic Cândido Portinari</em>. Foi ali que as letras começaram a fazer sentido, que os números ganharam forma e que eu fui pegando gosto por entender as coisas por conta própria. Cada página escrita e cada conquista pequena pareciam gigantes naquela época.
+            </p>
+            <p>
+              Na sequência, fui para a <em>Escola Municipal Professora Nathalia de Conto Costa</em>, onde fiquei até o 5º ano. Ali, eu já não era mais aquela criança do começo; fui ganhando mais autonomia, lidando com novas rotinas e encerrando essa etapa do fundamental com a sensação de quem estava crescendo rápido.
+            </p>
+            <p>
+              Quando chegou o 6º ano, mudei para o <em>Colégio Estadual Padre Cláudio Morelli</em> — e nunca mais saí de lá. No começo, tudo parecia maior: os corredores, as exigências, as matérias e a responsabilidade de acompanhar o ritmo. Com o passar dos anos, aquele colégio virou o cenário de boa parte do meu crescimento, acompanhando a transição do fim do fundamental até o Ensino Médio.
+            </p>
+            <p class="memoir-highlight">
+              Hoje, prestes a fazer 17 anos e chegando ao fim do terceirão no Padre Cláudio Morelli, olho para trás e vejo o quanto mudei. Fechar esse capítulo aqui no terceiro ano não é o fim de tudo, mas é a despedida de uma fase inteira que começou lá atrás no CMEI e me trouxe até quem eu sou hoje.
+            </p>
+          </div>
+        </div>
+
+        <!-- LINHA DO TEMPO CRONOLÓGICA -->
+        <div class="timeline-wrapper" id="linha-do-tempo">
+          <div class="timeline-heading-box">
+            <h3 class="timeline-main-title">A Linha do Tempo da Minha Trajetória</h3>
+            <p class="timeline-main-subtitle">Clique em cada fase para navegar pelas recordações, marcos e fotos</p>
+          </div>
+
+          <div class="timeline-track">
+            <!-- Marco 1: CMEI Miguel Arraes -->
+            <article class="timeline-item timeline-left" data-phase="cmei">
+              <div class="timeline-node">
+                <span class="node-icon">🎨</span>
+              </div>
+              <div class="timeline-card">
+                <div class="card-meta">
+                  <span class="card-period">Primeira Infância • Pré-escola</span>
+                  <span class="card-badge">O Começo de Tudo</span>
+                </div>
+                <h4 class="card-title">CMEI Miguel Arraes</h4>
+                <div class="card-image-box">
+                  <img src="assets/img/infancia-cmei.jpg" alt="Mayla na infância com camiseta do Metallica no CMEI" class="timeline-img" loading="lazy" data-zoomable>
+                  <span class="card-img-caption">Mayla na infância: o início das descobertas, brincadeiras e imaginação livre.</span>
+                </div>
+                <p class="card-text">
+                  Minha história na escola começa antes mesmo de conseguir lembrar de tudo com clareza. Guardo com muito carinho a sensação viva das tintas nos dedos, os brinquedos compartilhados no chão da sala e a primeira certeza de que havia um mundo enorme além das paredes de casa, repleto de outras crianças prontas para inventar histórias comigo.
+                </p>
+                <div class="card-highlights">
+                  <span class="highlight-chip">Mundo além de casa</span>
+                  <span class="highlight-chip">Tintas & Cores</span>
+                  <span class="highlight-chip">Primeiros laços</span>
+                </div>
+              </div>
+            </article>
+
+                        <!-- Marco 2: Caic Cândido Portinari -->
+            <article class="timeline-item timeline-right" data-phase="caic">
+              <div class="timeline-node">
+                <span class="node-icon">📖</span>
+              </div>
+              <div class="timeline-card">
+                <div class="card-meta">
+                  <span class="card-period">1º ao 3º Ano • Anos Iniciais</span>
+                  <span class="card-badge">O Despertar da Escrita</span>
+                </div>
+                <h4 class="card-title">CEI Caic Cândido Portinari</h4>
+                <div class="card-image-box">
+                  <!-- Adicionado o style="object-position: top center;" aqui -->
+                  <img src="assets/img/fundamental-festa-junina.jpg" alt="Mayla de vestido de Festa Junina com trancinhas no colégio" class="timeline-img" style="object-position: top center;" loading="lazy" data-zoomable>
+                  <span class="card-img-caption">Festa Junina e comemorações escolares: a alegria inocente dos anos iniciais do Fundamental.</span>
+                </div>
+                <p class="card-text">
+                  Foi no Caic Cândido Portinari que o mundo ganhou código e significado. As letras deixaram de ser desenhos misteriosos para virarem palavras, os números ganharam vida em operações e cadernos coloridos, e nasceu ali a curiosidade apaixonada por entender as coisas por conta própria. Cada página lida parecia uma conquista gigantesca.
+                </p>
+                <div class="card-highlights">
+                  <span class="highlight-chip">Alfabetização</span>
+                  <span class="highlight-chip">Festas Juninas</span>
+                  <span class="highlight-chip">Autonomia nascente</span>
+                </div>
+              </div>
+            </article>
+
+            <!-- Marco 3: Escola Municipal Nathalia de Conto Costa -->
+            <article class="timeline-item timeline-left" data-phase="nathalia">
+              <div class="timeline-node">
+                <span class="node-icon">🌱</span>
+              </div>
+              <div class="timeline-card">
+                <div class="card-meta">
+                  <span class="card-period">4º e 5º Ano • Fechamento Fundamental I</span>
+                  <span class="card-badge">Amadurecendo Rápido</span>
+                </div>
+                <h4 class="card-title">E. M. Professora Nathalia de Conto Costa</h4>
+                
+                <!-- FOTO DA NATHALIA INSERIDA AQUI -->
+                <div class="card-image-box">
+                  <img src="assets/img/nathalia.jpg" alt="Escola Municipal Professora Nathalia de Conto Costa" class="timeline-img" loading="lazy" data-zoomable>
+                  <span class="card-img-caption">A fase de transição: consolidando bases e preparando o salto para novos desafios.</span>
+                </div>
+
+                <p class="card-text">
+                  Na Nathalia de Conto Costa, percebi claramente que já não era mais aquela garotinha que precisava ser guiada pela mão em cada detalhe. O ritmo exigia mais responsabilidade, prazos de provas, novos professores e o fechamento do primeiro ciclo fundamental com aquele frio na barriga de estar crescendo muito rápido.
+                </p>
+                <div class="card-highlights">
+                  <span class="highlight-chip">Mais independência</span>
+                  <span class="highlight-chip">Rotinas e provas</span>
+                  <span class="highlight-chip">Conclusão Fundamental I</span>
+                </div>
+              </div>
+            </article>
+
+            <!-- Marco 4: Padre Cláudio Morelli (Anos Finais) -->
+            <article class="timeline-item timeline-right" data-phase="morelli-inicio">
+              <div class="timeline-node">
+                <span class="node-icon">🏛️</span>
+              </div>
+              <div class="timeline-card">
+                <div class="card-meta">
+                  <span class="card-period">6º ao 9º Ano • Fundamental II</span>
+                  <span class="card-badge">A Chegada ao Morelli</span>
+                </div>
+                <h4 class="card-title">Colégio Estadual Padre Cláudio Morelli</h4>
+                
+                <!-- FOTO DO MORELLI INSERIDA AQUI -->
+                <div class="card-image-box">
+                  <img src="assets/img/morelli.jpeg" alt="Fachada do Colégio Estadual Padre Cláudio Morelli" class="timeline-img" loading="lazy" data-zoomable>
+                  <span class="card-img-caption">O início de uma longa jornada no Colégio Padre Cláudio Morelli.</span>
+                </div>
+
+                <p class="card-text">
+                  Em 2018/2019, cruzei os portões do Padre Cláudio Morelli e nunca mais saí. No 6º ano, o impacto foi imediato: corredores intermináveis, uma matéria para cada professor, trocas de sala e o sentimento de responsabilidade multiplicado. Ali, entre recreios agitados e conversas na escada, o colégio virou o chão seguro da minha adolescência.
+                </p>
+                <div class="card-highlights">
+                  <span class="highlight-chip">Corredores imensos</span>
+                  <span class="highlight-chip">Muitos professores</span>
+                  <span class="highlight-chip">Segunda casa</span>
+                </div>
+              </div>
+            </article>
+
+            <!-- Marco 5: Terceirão / O Final de Ciclo -->
+            <article class="timeline-item timeline-left highlight-node" data-phase="morelli-terceirao">
+              <div class="timeline-node">
+                <span class="node-icon">⭐</span>
+              </div>
+              <div class="timeline-card card-terceirao-featured">
+                <div class="card-meta">
+                  <span class="card-period">3º Ano do Ensino Médio • 2026</span>
+                  <span class="card-badge badge-golden">O Terceirão Inesquecível</span>
+                </div>
+                <h4 class="card-title">A Grande Despedida & Conclusão</h4>
+                <div class="card-image-box">
+                  <img src="assets/img/turma-completa-professor-dinamica.jpg" alt="Mayla aos 17 anos concluindo o terceirão no Colégio Padre Cláudio Morelli" class="timeline-img" loading="lazy" data-zoomable>
+                  <span class="card-img-caption">Mayla hoje: quase 17 anos, consciência crítica, coração grato e olhar voltado ao futuro.</span>
+                </div>
+                <p class="card-text">
+                  Hoje, prestes a fazer 17 anos, vivo os dias que um dia pareciam distantes. O último ano do Ensino Médio traz um sabor agridoce: o cansaço dos estudos, a maturidade de 17 redações dissertativas escritas com profundidade, e a dor e a delícia de saber que o sino vai tocar pela última vez para nós como estudantes da escola básica.
+                </p>
+                <div class="card-highlights">
+                  <span class="highlight-chip chip-gold">17 anos de idade</span>
+                  <span class="highlight-chip chip-gold">Formanda EM</span>
+                  <span class="highlight-chip chip-gold">Futuro aberto</span>
+                </div>
+              </div>
+            </article>
+          </div>
+        </div>
+
+        <!-- MURAL DOS AMIGOS DO TERCEIRÃO -->
+        <div class="friends-section" id="terceirao-amigos">
+          <div class="friends-header">
+            <span class="sub-badge">Laços que Ficam para Sempre</span>
+            <h3 class="friends-title">Os Amigos da Reta Final</h3>
+            <p class="friends-intro">
+              "E se essa reta final tem um sabor especial, é também por causa das pessoas que estão comigo agora. Cada um, do seu jeito, fez parte do meu dia a dia, das risadas, das conversas e das lembranças que vão ficar quando o sino tocar pela última vez nesse ciclo."
+            </p>
+          </div>
+
+          <div class="friends-grid">
+            <!-- Amiga 1: Larissa -->
+            <div class="friend-card" data-friend="larissa">
+              <div class="friend-avatar-wrap">
+                <span class="avatar-letter">L</span>
+                <span class="friend-icon-badge">🌸</span>
+              </div>
+              <h4 class="friend-name">Larissa</h4>
+              <span class="friend-role">Cúmplice de Risadas & Conversas</span>
+              <p class="friend-desc">
+                Presença doce e marcante nos dias calmos e nos mais caóticos. Aquela conversa que acalma e o riso fácil que desmonta qualquer peso de semana de provas.
+              </p>
+            </div>
+
+            <!-- Amigo 2: Pellanda -->
+            <div class="friend-card" data-friend="pellanda">
+              <div class="friend-avatar-wrap">
+                <span class="avatar-letter">P</span>
+                <span class="friend-icon-badge">⚡</span>
+              </div>
+              <h4 class="friend-name">Pellanda</h4>
+              <span class="friend-role">Energia & Bom Humor Contagiante</span>
+              <p class="friend-desc">
+                Companheira fiel das brincadeiras, dos causos do corredor e daquele bom humor espontâneo que transformou até as aulas mais puxadas em momentos leves.
+              </p>
+            </div>
+
+            <!-- Amigo 3: Rafael -->
+            <div class="friend-card" data-friend="rafael">
+              <div class="friend-avatar-wrap">
+                <span class="avatar-letter">R</span>
+                <span class="friend-icon-badge">🎯</span>
+              </div>
+              <h4 class="friend-name">Rafael</h4>
+              <span class="friend-role">Parceria & Conversas Boas</span>
+              <p class="friend-desc">
+                Sempre por perto para trocar ideias sinceras, rir das situações inusitadas da turma e compartilhar as expectativas sobre o que vem depois do colégio.
+              </p>
+            </div>
+
+            <!-- Amigo 4: Jean -->
+            <div class="friend-card" data-friend="jean">
+              <div class="friend-avatar-wrap">
+                <span class="avatar-letter">J</span>
+                <span class="friend-icon-badge">🌟</span>
+              </div>
+              <h4 class="friend-name">Jean</h4>
+              <span class="friend-role">Autenticidade & Conexão</span>
+              <p class="friend-desc">
+                Com seu jeito único e leal, Jean tornou os intervalos e trabalhos em grupo muito mais divertidos e cheios de boas memórias que vou guardar com carinho.
+              </p>
+            </div>
+
+            <!-- Amigo 5: Bozza -->
+            <div class="friend-card" data-friend="bozza">
+              <div class="friend-avatar-wrap">
+                <span class="avatar-letter">B</span>
+                <span class="friend-icon-badge">🔥</span>
+              </div>
+              <h4 class="friend-name">Bozza</h4>
+              <span class="friend-role">Presença Firme & Tiradas Épicas</span>
+              <p class="friend-desc">
+                Inconfundível no pátio e na sala de aula. Marcado pelas tiradas certeiras, pela lealdade ao grupo e pela vibração constante do nosso terceirão.
+              </p>
+            </div>
+
+            <!-- Amigo 6: Renan -->
+            <div class="friend-card" data-friend="renan">
+              <div class="friend-avatar-wrap">
+                <span class="avatar-letter">R</span>
+                <span class="friend-icon-badge">🚀</span>
+              </div>
+              <h4 class="friend-name">Renan</h4>
+              <span class="friend-role">Companheirismo & Boas Histórias</span>
+              <p class="friend-desc">
+                Sempre animando a roda de conversa, dividindo fardos e celebrando cada vitória dessa reta final que vivemos lado a lado no Padre Cláudio Morelli.
+              </p>
+            </div>
+
+            <!-- Amigo 7: Vinicius -->
+            <div class="friend-card friend-card-highlight" data-friend="vinicius">
+              <div class="friend-avatar-wrap">
+                <span class="avatar-letter">V</span>
+                <span class="friend-icon-badge">✨</span>
+              </div>
+              <h4 class="friend-name">Vinicius</h4>
+              <span class="friend-role">Apoio Constante & Sintonia Rara</span>
+              <p class="friend-desc">
+                Uma das pessoas fundamentais nesse encerramento de ciclo. Alguém que somou com empatia, amizade verdadeira e tornou essa despedida do colégio inesquecível.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <!-- GALERIA VISUAL INTERATIVA -->
+        <div class="gallery-wrapper" id="galeria">
+          <div class="gallery-header">
+            <span class="sub-badge">Álbum de Evidências</span>
+            <h3 class="gallery-title">Registros que Contam a História</h3>
+            <p class="gallery-subtitle">Clique em qualquer foto para ampliar e ver detalhes</p>
+          </div>
+
+          <div class="gallery-grid">
+            <figure class="gallery-item" data-photo="assets/img/infancia-cmei.jpg" data-caption="Primeira Infância: Os primeiros passos escolares no CMEI Miguel Arraes, cheios de curiosidade, imaginação e alegria.">
+              <div class="gallery-img-container">
+                <img src="assets/img/infancia-cmei.jpg" alt="Foto da infância no CMEI" loading="lazy">
+                <div class="gallery-overlay">
+                  <span class="overlay-icon">🔍 Ampliar</span>
+                  <span class="overlay-text">CMEI Miguel Arraes</span>
+                </div>
+              </div>
+              <figcaption class="gallery-caption">
+                <strong>O Início • Primeira Infância</strong>
+                <small>CMEI Miguel Arraes: tintas, brincadeiras e o primeiro contato com o mundo social.</small>
+              </figcaption>
+            </figure>
+
+            <figure class="gallery-item" data-photo="assets/img/fundamental-festa-junina.jpg" data-caption="Ensino Fundamental I: A clássica Festa Junina de trancinhas e chapéu de palha. Tempos de Caic Cândido Portinari e Nathalia de Conto.">
+              <div class="gallery-img-container">
+                <img src="assets/img/fundamental-festa-junina.jpg" alt="Foto da Festa Junina no Caic Cândido Portinari" loading="lazy">
+                <div class="gallery-overlay">
+                  <span class="overlay-icon">🔍 Ampliar</span>
+                  <span class="overlay-text">Caic Portinari & Nathalia de Conto</span>
+                </div>
+              </div>
+              <figcaption class="gallery-caption">
+                <strong>Anos Iniciais • Festa Junina</strong>
+                <small>Tradições escolares, descobertas da leitura e a alegria do Fundamental I.</small>
+              </figcaption>
+            </figure>
+
+            <figure class="gallery-item" data-photo="assets/img/mayla-terceirao.jpg" data-caption="O Terceirão: Mayla prestes a completar 17 anos, na reta final do Padre Cláudio Morelli pronta para conquistar o mundo.">
+              <div class="gallery-img-container">
+                <img src="assets/img/mayla-terceirao.jpg" alt="Foto atual de Mayla no 3º ano do Ensino Médio" loading="lazy">
+                <div class="gallery-overlay">
+                  <span class="overlay-icon">🔍 Ampliar</span>
+                  <span class="overlay-text">Terceirão • Padre Cláudio Morelli</span>
+                </div>
+              </div>
+              <figcaption class="gallery-caption">
+                <strong>A Reta Final • O Terceirão</strong>
+                <small>Padre Cláudio Morelli: amadurecimento, pensamento crítico e o fechamento de ciclo.</small>
+              </figcaption>
+            </figure>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SEÇÃO 2: PORTFÓLIO DE REDAÇÕES (17 REDAÇÕES) -->
+    <section class="section redacoes-section" id="redacoes">
+      <div class="section-container">
+        <div class="section-header">
+          <span class="section-tag">Capítulo 02</span>
+          <h2 class="section-title">Portfólio de Redações do 3º Ano</h2>
+          <p class="section-subtitle">
+            Coletânea completa com as <strong>17 produções textuais e literárias</strong> desenvolvidas nas aulas de Língua Portuguesa e Redação durante o 3º ano do Ensino Médio. Ensaios dissertativos-argumentativos com repertórios socioculturais, senso crítico e propostas de intervenção.
+          </p>
+        </div>
+
+        <!-- Painel de Estatísticas Literárias -->
+        <div class="portfolio-dashboard">
+          <div class="dashboard-card">
+            <span class="dash-icon">✍️</span>
+            <div class="dash-info">
+              <span class="dash-number" id="dashTotalEssays">17</span>
+              <span class="dash-label">Redações Produzidas</span>
+            </div>
+          </div>
+          <div class="dashboard-card">
+            <span class="dash-icon">📚</span>
+            <div class="dash-info">
+              <span class="dash-number">5+</span>
+              <span class="dash-label">Eixos Temáticos</span>
+            </div>
+          </div>
+          <div class="dashboard-card">
+            <span class="dash-icon">💡</span>
+            <div class="dash-info">
+              <span class="dash-number">30+</span>
+              <span class="dash-label">Repertórios de Peso</span>
+            </div>
+          </div>
+          <div class="dashboard-card">
+            <span class="dash-icon">🎯</span>
+            <div class="dash-info">
+              <span class="dash-number">100%</span>
+              <span class="dash-label">Estrutura Modelo ENEM</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- BARRA DE CONTROLE: BUSCA, FILTROS E MODO DE EXIBIÇÃO -->
+        <div class="portfolio-controls">
+          <div class="controls-top-row">
+            <!-- Barra de Busca -->
+            <div class="search-input-box">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" class="search-icon">
+                <circle cx="11" cy="11" r="8"></circle>
+                <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+              </svg>
+              <input type="text" id="essaySearchInput" placeholder="Buscar por título, assunto ou repertório (ex: WALL-E, Krenak, Bauman, IA)..." aria-label="Buscar redações">
+              <button id="clearSearchBtn" class="clear-search-btn" title="Limpar busca" aria-label="Limpar campo de busca" style="display: none;">✕</button>
+            </div>
+
+            <!-- Alternador de Visualização: Cards vs Acordeão -->
+            <div class="view-mode-toggle" role="group" aria-label="Alternar modo de visualização">
+              <button id="viewGridBtn" class="view-btn active" title="Visualização em Cards" aria-pressed="true">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" class="view-icon">
+                  <rect x="3" y="3" width="7" height="7"></rect>
+                  <rect x="14" y="3" width="7" height="7"></rect>
+                  <rect x="14" y="14" width="7" height="7"></rect>
+                  <rect x="3" y="14" width="7" height="7"></rect>
+                </svg>
+                <span>Cards</span>
+              </button>
+              <button id="viewAccordionBtn" class="view-btn" title="Visualização em Sanfona / Acordeão" aria-pressed="false">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" class="view-icon">
+                  <line x1="8" y1="6" x2="21" y2="6"></line>
+                  <line x1="8" y1="12" x2="21" y2="12"></line>
+                  <line x1="8" y1="18" x2="21" y2="18"></line>
+                  <line x1="3" y1="6" x2="3.01" y2="6"></line>
+                  <line x1="3" y1="12" x2="3.01" y2="12"></line>
+                  <line x1="3" y1="18" x2="3.01" y2="18"></line>
+                </svg>
+                <span>Leitor Sanfonado</span>
+              </button>
+            </div>
+          </div>
+
+          <!-- Filtros por Categoria -->
+          <div class="category-filters" role="tablist" aria-label="Filtrar por categoria">
+            <button class="filter-pill active" data-category="all" role="tab" aria-selected="true">
+              Todas <span class="filter-count" id="countAll">17</span>
+            </button>
+            <button class="filter-pill" data-category="meio-ambiente" role="tab" aria-selected="false">
+              🌱 Meio Ambiente & Clima <span class="filter-count" id="countMeioAmbiente">5</span>
+            </button>
+            <button class="filter-pill" data-category="tecnologia" role="tab" aria-selected="false">
+              💻 Tecnologia & Mídia <span class="filter-count" id="countTecnologia">4</span>
+            </button>
+            <button class="filter-pill" data-category="cidadania" role="tab" aria-selected="false">
+              ⚖️ Cidadania & Direitos <span class="filter-count" id="countCidadania">4</span>
+            </button>
+            <button class="filter-pill" data-category="saude" role="tab" aria-selected="false">
+              🧠 Saúde & Sociedade <span class="filter-count" id="countSaude">3</span>
+            </button>
+            <button class="filter-pill" data-category="cultura" role="tab" aria-selected="false">
+              🏛️ Cultura & Patrimônio <span class="filter-count" id="countCultura">1</span>
+            </button>
+          </div>
+        </div>
+
+        <!-- Indicador de Resultados -->
+        <div class="results-feedback-bar">
+          <span id="resultsCountText">Mostrando 17 de 17 redações</span>
+          <span id="activeFilterBadge" class="active-filter-badge" style="display: none;"></span>
+        </div>
+
+        <!-- MODO 1: GRADE DE CARDS (CONTAINER) -->
+        <div id="essaysGrid" class="essays-grid">
+          <!-- Renderizado dinamicamente via JS a partir de ESSAYS_DATA -->
+        </div>
+
+        <!-- MODO 2: LEITOR SANFONADO / ACORDEÃO (CONTAINER) -->
+        <div id="essaysAccordion" class="essays-accordion" style="display: none;">
+          <!-- Renderizado dinamicamente via JS a partir de ESSAYS_DATA -->
+        </div>
+
+        <!-- Mensagem de Sem Resultados -->
+        <div id="noResultsState" class="no-results-state" style="display: none;">
+          <div class="no-results-icon">🔍</div>
+          <h3>Nenhuma redação encontrada</h3>
+          <p>Não encontramos nenhum texto correspondente aos termos digitados. Tente buscar por outros repertórios ou limpar os filtros.</p>
+          <button id="resetSearchBtn" class="btn btn-secondary">Limpar busca e filtros</button>
+        </div>
+      </div>
+    </section>
+
+    <!-- SEÇÃO FINAL: REFLEXÃO & ENCERRAMENTO -->
+    <section class="section farewell-section" id="conclusao">
+      <div class="section-container">
+        <div class="farewell-card">
+          <div class="farewell-decor" aria-hidden="true">
+            <span class="decor-flower">🌻</span>
+          </div>
+          <span class="section-tag">Despedida de um Ciclo</span>
+          <h2 class="farewell-title">O que Levo Comigo</h2>
+          <div class="farewell-text">
+            <p>
+              Olhar para toda essa caminhada — desde os primeiros rabiscos no CMEI Miguel Arraes até a escrita de ensaios complexos no Colégio Padre Cláudio Morelli — é enxergar que a escola foi muito mais do que notas, cadernos e provas. Foi o lugar onde minha voz se formou, onde aprendi a questionar, a me posicionar e a valorizar a convivência.
+            </p>
+            <p>
+              Aos meus amigos — <strong>Larissa, Pellanda, Rafael, Jean, Bozza, Renan e Vinicius</strong> —, o meu carinho mais genuíno por tornarem esse terceiro ano vivo, leve e memorável. Aos professores que nos desafiaram a pensar e escrever com alma, a minha sincera gratidão.
+            </p>
+            <p class="farewell-quote">
+              "Fechar esse capítulo aqui no terceiro ano não é o fim de tudo, mas é a despedida de uma fase inteira que começou lá atrás e me trouxe até quem eu sou hoje."
+            </p>
+          </div>
+          <div class="farewell-footer">
+            <div class="signature">
+              <span class="signature-name">Mayla</span>
+              <span class="signature-role">Concluinte do Ensino Médio • Turma de 2026</span>
+            </div>
+            <a href="#hero" class="btn btn-secondary">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" class="btn-icon">
+                <path d="M18 15l-6-6-6 6"/>
+              </svg>
+              Voltar ao Início
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="site-footer">
+    <div class="footer-container">
+      <div class="footer-brand">
+        <span class="footer-logo">Mayla<span class="logo-dot">.</span></span>
+        <p class="footer-desc">
+          Página pessoal, memorial de memórias escolares e acervo de 17 redações do 3º ano do Ensino Médio. Desenvolvido com HTML5, CSS3 e JavaScript.
+        </p>
+      </div>
+
+      <div class="footer-col">
+        <h4 class="footer-heading">Navegação Rápida</h4>
+        <ul class="footer-links">
+          <li><a href="#memorias">Minhas Memórias</a></li>
+          <li><a href="#linha-do-tempo">Linha do Tempo</a></li>
+          <li><a href="#galeria">Galeria Fotográfica</a></li>
+          <li><a href="#terceirao-amigos">Amigos do Terceirão</a></li>
+          <li><a href="#redacoes">Portfólio de Redações</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col">
+        <h4 class="footer-heading">Colégios da Trajetória</h4>
+        <ul class="footer-school-list">
+          <li>CMEI Miguel Arraes</li>
+          <li>CEI Caic Cândido Portinari</li>
+          <li>E. M. Professora Nathalia de Conto Costa</li>
+          <li>C. E. Padre Cláudio Morelli</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <div class="footer-bottom-container">
+        <p>© 2026 Mayla. Todos os direitos reservados. Feito com afeto para o encerramento do Ensino Médio.</p>
+        <p class="footer-badge-tech">HTML5 • CSS3 Moderno • JavaScript Puro</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- JANELA MODAL DO LEITOR COMPLETO DE REDAÇÃO ("READER MODE") -->
+  <div id="essayModal" class="essay-modal" aria-hidden="true" role="dialog" aria-labelledby="modalEssayTitle" aria-modal="true">
+    <div class="modal-backdrop" id="modalBackdrop"></div>
+    <div class="modal-container">
+      <!-- Barra Superior do Leitor Modal -->
+      <div class="modal-header">
+        <div class="modal-header-meta">
+          <span id="modalEssayNumber" class="modal-essay-number">Redação #01</span>
+          <span id="modalEssayCategory" class="modal-essay-category">Meio Ambiente & Tecnologia</span>
+          <span id="modalEssayReadTime" class="modal-essay-time">2 min de leitura</span>
+        </div>
+
+        <div class="modal-header-controls">
+          <!-- Ferramentas de Leitura -->
+          <div class="reader-toolbar">
+            <button id="fontDecBtn" class="toolbar-btn" title="Diminuir tamanho da fonte" aria-label="Diminuir tamanho da fonte">A-</button>
+            <button id="fontIncBtn" class="toolbar-btn" title="Aumentar tamanho da fonte" aria-label="Aumentar tamanho da fonte">A+</button>
+            <button id="fontFamilyToggle" class="toolbar-btn" title="Alternar fonte com ou sem serifa" aria-label="Alternar fonte da redação">
+              <span class="font-toggle-label">Serif</span>
+            </button>
+            <button id="copyEssayBtn" class="toolbar-btn" title="Copiar texto da redação" aria-label="Copiar texto da redação">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" class="toolbar-icon">
+                <rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect>
+                <path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path>
+              </svg>
+              <span class="btn-text">Copiar</span>
+            </button>
+            <button id="printEssayBtn" class="toolbar-btn" title="Imprimir ou Salvar em PDF" aria-label="Imprimir redação">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" class="toolbar-icon">
+                <polyline points="6 9 6 2 18 2 18 9"></polyline>
+                <path d="M6 18H4a2 2 0 0 1-2-2v-5a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2v5a2 2 0 0 1-2 2h-2"></path>
+                <rect x="6" y="14" width="12" height="8"></rect>
+              </svg>
+              <span class="btn-text">Imprimir</span>
+            </button>
+          </div>
+
+          <button id="closeModalBtn" class="modal-close-btn" title="Fechar leitor (Esc)" aria-label="Fechar leitor modal">
+            ✕
+          </button>
+        </div>
+      </div>
+
+      <!-- Corpo da Redação no Modal -->
+      <div class="modal-scroll-body" id="modalScrollBody">
+        <article class="modal-article" id="modalArticleContent">
+          <header class="article-header">
+            <h2 id="modalEssayTitle" class="article-title">Título da Redação</h2>
+            
+            <!-- Repertórios em Destaque -->
+            <div class="article-repertory-box">
+              <span class="rep-label">Repertórios Socioculturais Citados:</span>
+              <div id="modalEssayRepertory" class="rep-chips">
+                <!-- Chips inseridas via JS -->
+              </div>
+            </div>
+
+            <!-- Resumo Analítico -->
+            <div class="article-summary-box">
+              <strong>Síntese da Argumentação:</strong>
+              <p id="modalEssaySummary">Resumo da redação...</p>
+            </div>
+          </header>
+
+          <!-- Texto Completo formatado em Parágrafos -->
+          <div id="modalEssayText" class="article-text-content">
+            <!-- Parágrafos inseridos via JS -->
+          </div>
+
+          <!-- Rodapé do Texto -->
+          <footer class="article-footer">
+            <div class="essay-specs">
+              <span id="modalEssayWordCount">0 palavras</span>
+              <span>•</span>
+              <span>Estrutura Dissertativa-Argumentativa</span>
+              <span>•</span>
+              <span>3º Ano EM — Colégio Padre Cláudio Morelli</span>
+            </div>
+          </footer>
+        </article>
+      </div>
+
+      <!-- Barra de Navegação Inferior (Anterior / Próxima) -->
+      <div class="modal-footer">
+        <button id="prevEssayBtn" class="modal-nav-btn prev">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <polyline points="15 18 9 12 15 6"></polyline>
+          </svg>
+          <span class="nav-btn-text">
+            <small>Redação anterior</small>
+            <strong id="prevEssayTitlePreview">Título Anterior</strong>
+          </span>
+        </button>
+
+        <span id="modalPositionIndicator" class="modal-position-indicator">1 de 17</span>
+
+        <button id="nextEssayBtn" class="modal-nav-btn next">
+          <span class="nav-btn-text">
+            <small>Próxima redação</small>
+            <strong id="nextEssayTitlePreview">Próximo Título</strong>
+          </span>
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <polyline points="9 18 15 12 9 6"></polyline>
+          </svg>
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <!-- MODAL DE LIGHTBOX PARA FOTOS -->
+  <div id="photoLightbox" class="photo-lightbox" aria-hidden="true" role="dialog" aria-modal="true">
+    <div class="lightbox-backdrop" id="lightboxBackdrop"></div>
+    <div class="lightbox-content">
+      <button id="closeLightboxBtn" class="lightbox-close-btn" aria-label="Fechar foto">✕</button>
+      <img id="lightboxImg" src="" alt="Foto ampliada" class="lightbox-img">
+      <p id="lightboxCaption" class="lightbox-caption"></p>
+    </div>
+  </div>
+
+  <!-- TOAST DE NOTIFICAÇÃO (Feedback ao copiar texto) -->
+  <div id="toastNotification" class="toast-notification" aria-live="polite">
+    <span class="toast-icon">✓</span>
+    <span id="toastMessage" class="toast-text">Texto copiado com sucesso!</span>
+  </div>
+
+  <!-- BOTÃO VOLTAR AO TOPO -->
+  <button id="backToTopBtn" class="back-to-top-btn" title="Voltar ao topo" aria-label="Voltar ao início da página">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+      <polyline points="18 15 12 9 6 15"></polyline>
+    </svg>
+  </button>
+
+  <!-- SCRIPTS -->
+  <!-- 1. Dados completos das 17 Redações -->
+  <script src="js/essays-data.js"></script>
+  <!-- 2. Lógica Principal de Interatividade -->
+  <script src="js/main.js"></script>
+</body>
+</html>
